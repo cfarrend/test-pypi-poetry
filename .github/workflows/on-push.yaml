@@ -1,0 +1,26 @@
+name: Push workflow
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install Poetry
+      run: |
+        curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+        source $HOME/.poetry/env
+    - name: Poetry Build
+      run: |
+        poetry build
+    - name: Poetry Publish
+      run: |
+        poetry publish --username ${{ secrets.PYPI_USER }} --password ${{ secrets.PYPI_PASSWORD }}
