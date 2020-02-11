@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.0"
+version = "0.2.1"
 description = "Testing PyPi & Poetry"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
 
@@ -10,6 +10,9 @@ license = "Proprietary"
 packages = [
     { include = "test-pypi-poetry" },
 ]
+
+include = ["LOGO.png"]
+exclude = ["test-pypi-poetry/README.md"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
