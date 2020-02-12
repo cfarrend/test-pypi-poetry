@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.1"
+version = "0.2.2"
 description = "Testing PyPi & Poetry"
+license = "Proprietary"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
 
 readme = "README_PUBLIC.md"
-license = "Proprietary"
+homepage = "https://cfarrend.com"
+repository = "https://github.com/cfarrend/test-pypi-poetry"
+documentation = "https://github.com/cfarrend/test-pypi-poetry/blob/master/README.md"
 
 packages = [
     { include = "test-pypi-poetry" },
@@ -13,6 +16,11 @@ packages = [
 
 include = ["LOGO.png"]
 exclude = ["test-pypi-poetry/README.md"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/cfarrend/test-pypi-poetry"
+"License" = "https://github.com/cfarrend/test-pypi-poetry/blob/master/LICENSE"
+"Official Website" = "https://google.com.au/"
 
 [tool.poetry.dependencies]
 python = "^3.7"
