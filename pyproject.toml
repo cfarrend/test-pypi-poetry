@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.2"
+version = "0.2.3"
 description = "Testing PyPi & Poetry"
 license = "Proprietary"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
@@ -17,10 +17,11 @@ packages = [
 include = ["LOGO.png"]
 exclude = ["test-pypi-poetry/README.md"]
 
+# URL Icons come from here: https://github.com/pypa/warehouse/blob/master/warehouse/templates/packaging/detail.html
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/cfarrend/test-pypi-poetry"
 "License" = "https://github.com/cfarrend/test-pypi-poetry/blob/master/LICENSE"
-"Official Website" = "https://google.com.au/"
+"Twitter" = "https://twitter.com/cfarrend"
 
 [tool.poetry.dependencies]
 python = "^3.7"
