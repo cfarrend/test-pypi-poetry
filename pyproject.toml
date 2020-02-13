@@ -2,7 +2,7 @@
 name = "test-pypi-poetry"
 version = "0.2.3"
 description = "Testing PyPi & Poetry"
-license = "Proprietary"
+# license = "Proprietary"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
 
 readme = "README_PUBLIC.md"
