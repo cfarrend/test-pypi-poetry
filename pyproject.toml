@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.3"
+version = "0.2.4"
 description = "Testing PyPi & Poetry"
 # license = "Proprietary"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
