@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Test kubectl
+    - name: kubectl version
       run: |
         kubectl version
     - name: Set up Python 3.7
