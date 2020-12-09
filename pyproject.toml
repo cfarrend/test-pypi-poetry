@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.6"
+version = "0.2.7"
 description = "Testing PyPi & Poetry"
 license = ""
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
@@ -22,6 +22,7 @@ exclude = ["test-pypi-poetry/README.md"]
 "Bug Tracker" = "https://github.com/cfarrend/test-pypi-poetry"
 "License" = "https://github.com/cfarrend/test-pypi-poetry/blob/master/LICENSE"
 "Twitter" = "https://twitter.com/cfarrend"
+"Generic Icon" = "https://example.com"
 
 [tool.poetry.dependencies]
 python = "^3.7"
