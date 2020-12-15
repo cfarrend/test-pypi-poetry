@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-pypi-poetry"
-version = "0.2.8"
+version = "0.2.9"
 description = "The Description"
 license = "The License"
 authors = ["Christopher Farrenden <cfarrend@gmail.com>"]
@@ -8,8 +8,8 @@ maintainers = ["A. Maintainer <amaintainer@example.com>"]
 
 readme = "README_PUBLIC.md"
 homepage = "https://cfarrend.com"
-repository = "https://github.com/cfarrend/test-pypi-poetry"
-documentation = "https://github.com/cfarrend/test-pypi-poetry/blob/master/README.md"
+repository = ""
+documentation = ""
 
 keywords = ["example", "Example", "Hyphen-word", "Underscore_word", "$1234@"]
 
@@ -26,6 +26,7 @@ exclude = ["test-pypi-poetry/README.md"]
 "License" = "https://github.com/cfarrend/test-pypi-poetry/blob/master/LICENSE"
 "Twitter" = "https://twitter.com/cfarrend"
 "Generic Icon" = "https://example.com"
+GitHub = "https://github.com/cfarrend"
 
 [tool.poetry.dependencies]
 python = "^3.7"
